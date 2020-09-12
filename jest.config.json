@@ -1,0 +1,9 @@
+{
+  "moduleNameMapper": {
+    "^.+\\.(css|less|scss)$": "babel-jest"
+  },
+  "testRegex": "((\\.|/*.)(spec))\\.js?$",
+  "setupFilesAfterEnv": [
+    "<rootDir>/setupTest.js"
+  ]
+}
